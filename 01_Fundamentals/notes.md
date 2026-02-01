@@ -25,8 +25,10 @@ Understanding Table Relationships: -> In a database, tables are often related to
 
 a) Foreign Key(A foreign key is a column or a set of columns in one table that refers to the primary key in another table): ->It establishes a link between the two tables.
    Example: In an "Invoice" table, the CustomerID column might be a foreign key referencing the CustomerID column in the "Customer" table.
+
 b) One-to-Many Relationship(A row in one table can be associated with multiple rows in another in a one-to-many relationship)
    Example: A customer can place multiple orders, creating a one-to-many relationship between the "Customer" table and the "Invoice" table.
+
 c) Many-to-Many Relationship(In a many-to-many relationship, multiple rows in one table can be associated with multiple rows in another) ->These relationships are typically implemented using a junction table
    Example: Students and courses in a school database can have a many-to-many relationship, where students can enroll in multiple classes and each course can have multiple students.
 
